@@ -1,2 +1,2 @@
 # Capped-Peptides
-Capped Peptides Prediction Algorithm
+This is a code run in python to search through the secretome for potential new capped peptides. The algorithm searches through each sequence looking for the amidation motif ('GKR' or 'GRR') and then looks for a glutamine upstream (Q) between 3 and 20 amino acids. For an output, it produces a csv file with a list of the predicted peptides, information about where the gene they are from, position in that gene, and amino acids upstream and downstream of the capped peptide. The input files used are the exported uniprot fasta files from searching for a 'secreted' keyword and filtering for either human or mouse species.
